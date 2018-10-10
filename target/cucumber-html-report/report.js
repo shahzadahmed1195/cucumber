@@ -34,7 +34,7 @@ formatter.match({
   "location": "StepDefinition.i_go_to(String)"
 });
 formatter.result({
-  "duration": 11768502082,
+  "duration": 19688036276,
   "status": "passed"
 });
 formatter.match({
@@ -47,7 +47,7 @@ formatter.match({
   "location": "StepDefinition.i_should_be_on_youtube_page(String)"
 });
 formatter.result({
-  "duration": 2182365813,
+  "duration": 2453272874,
   "status": "passed"
 });
 });
