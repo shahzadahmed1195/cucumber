@@ -8,9 +8,7 @@ import junit.framework.Assert;
 
 public class StepDefinition {
 	
-	ChromeDriverService service= ChromeDriverService.CreateDefaultService(DRIVER_PATH);
-	service.Port = <10000>;
-	IWebDriver WebDriver = new ChromeDriver(service);
+	Webdriver = driver;
 
 	@Given("I go to \"([^\"]*)\"$")
 	public void i_go_to(String arg1) {
