@@ -10,7 +10,7 @@ public class StepDefinition {
 	
 	WebDriver driver;
 
-	@Given("I go to \"([^\"]*)\)
+	@Given("I go to \"([^\"]*)\"$")
 	public void i_go_to(String arg1) {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
