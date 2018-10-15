@@ -8,7 +8,7 @@ import junit.framework.Assert;
 
 public class StepDefinition {
 	
-	WebDriver=ChromeDriver;
+	WebDriver driver;
 
 	@Given("I go to \"([^\"]*)\"$")
 	public void i_go_to(String arg1) {
